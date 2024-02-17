@@ -8,9 +8,11 @@ sudo apt install unzip
 
 ## eTRIMS Image Database
 
+The eTRIMS dataset consists of 60 non-rectified images. Facades in this dataset are more irregular and follow only weak architectural principles. Again, we split the data into 5 equal sets for cross-validation.
+
 ```
 wget https://www.ipb.uni-bonn.de/projects/etrims_db/downloads/etrims-db_v1.zip -O eTRIMS.zip
-unzip  eTRIMS.zip -d eTRIMS
+unzip eTRIMS.zip
 ```
 
 | eTRIMS     | Images | Objects |
