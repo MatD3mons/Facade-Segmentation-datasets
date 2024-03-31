@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 #folder
-eTRIMS.zip
-etrims-db_v1/
+eTRIMS
+CMP
